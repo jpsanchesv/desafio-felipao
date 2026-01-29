@@ -13,11 +13,12 @@ function nivel(vitoria, derrota){
                 case saldoRankeada > 80 && saldoRankeada < 91 :
                     return "Diamante"
                 case saldoRankeada > 90 && saldoRankeada < 101: 
-                    return "Lendrário"
-                case saldoRankeada >= 101: 
                     return "Lendário"
+                default : 
+                    return "Imortal"
                 
             }
+           
         }
 
     function main(){
